@@ -1,0 +1,17 @@
+package com.programs;
+
+public class Reverse_String {
+	
+public static void main(String[] args) {
+		
+		String s= "Reverse String";
+		String temp = "";
+		int length = s.length();
+		for (int i = length-1; i>=0; i--) {
+			temp = temp+s.charAt(i);
+		}
+		System.out.println("Reverse String :  "+  temp);
+	}
+
+
+}
